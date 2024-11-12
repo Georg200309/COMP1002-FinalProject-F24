@@ -1,0 +1,35 @@
+/*
+@Title - Final Assignment
+@Authors - Monkhouse, Braidan P, Svetlana Bedareva, Jamie Bascin
+@Updated - November 12, 2024
+*/
+
+/*
+Css Variables
+*/
+:root {
+--ACCENT-COL:red;
+--TXT-COL:white;
+--SEC-TXT-COL:brown;
+--PRIM-COL:orangered;
+--BCKGRND-COL:red;
+--SECD-COL:#f8ff11;
+--TERT-COL:#3c3c3c;
+--DEF-TXT-SIZE:1.25rem;
+--LRG-TXT-SIZE:1.7rem;
+--BRDR-RAD:8px;
+}
+
+
+/*
+Main Layout
+*/
+* {
+box-sizing:border-box;
+color:var(--TXT-COL);
+}
+body {
+background-color:var(--BCKGRND-COL);
+display:flex;
+flex-direction:column;
+}

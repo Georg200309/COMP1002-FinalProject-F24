@@ -1,0 +1,14 @@
+/*
+@Title - Final Assignment
+@Authors - Monkhouse, Braidan P, Svetlana Bedareva, Jamie Bascin
+@Updated - November 12, 2024
+*/
+@media screen and (max-width: 992px) {
+    /*
+    Main Layout
+    */
+    body {
+    min-height:100vh;
+    margin:0;
+    }
+}
