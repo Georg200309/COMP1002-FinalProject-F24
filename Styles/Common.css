@@ -9,10 +9,10 @@ Css Variables
 */
 :root {
 --ACCENT-COL:red;
---TXT-COL:white;
+--TXT-COL:#000000;
 --SEC-TXT-COL:brown;
 --PRIM-COL:orangered;
---BCKGRND-COL:red;
+--BCKGRND-COL:#FFFFFF;
 --SECD-COL:#f8ff11;
 --TERT-COL:#3c3c3c;
 --DEF-TXT-SIZE:1.25rem;
@@ -22,7 +22,7 @@ Css Variables
 
 
 /*
-Main Layout
+Body
 */
 * {
 box-sizing:border-box;
@@ -32,4 +32,97 @@ body {
 background-color:var(--BCKGRND-COL);
 display:flex;
 flex-direction:column;
+text-align:center;
+}
+
+
+
+/*
+Header
+*/
+header {
+display:flex;
+justify-content:flex-start;
+}
+header img {
+margin:1rem;
+}
+header ul {
+list-style-type:none;
+display:flex;
+justify-content:flex-start;
+}
+header ul li {
+text-align:center;
+}
+header ul a {
+text-decoration:none;
+font-size:var(--LRG-TXT-SIZE);
+}
+header ul a:hover {
+color:red;
+background-color:orange;
+}
+
+
+
+/*
+Main layout
+*/
+main {
+display:flex;
+flex:1;
+}
+
+
+/*
+Left sidebar
+*/
+.sidenav {
+background-color:#B95F21;
+flex:1 1 5rem;
+}
+
+/*
+Center content
+*/
+.article {
+background-color:#81A43C; 
+flex:3 3;
+}
+
+/*
+Right sidebar
+*/
+.aside {
+background-color:#B95F21;
+flex:1 1 5rem;
+}
+
+
+
+
+
+/*
+Footer
+*/
+footer {
+
+}
+footer ul {
+list-style-type:none;
+}
+footer ul li {
+
+}
+footer ul li a {
+text-decoration:none;
+}
+footer ul li a:hover {
+text-decoration:underline;
+color:red;
+background-color:purple;
+}
+footer copyright {
+color:red;
 }

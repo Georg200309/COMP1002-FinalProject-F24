@@ -5,11 +5,92 @@
 */
 @media screen and (max-width: 992px) {
     /*
-    Main Layout
+    Body
     */
+    * {
+    
+    }
     body {
-    min-height:100vh;
     margin:0;
-    background-color:teal;
+    }
+
+
+
+    /*
+    Header
+    */
+    header {
+    height:5rem;
+    padding:0px;
+    }
+    header img {
+    height:3rem;
+    width:auto;
+    }
+    header ul {
+    padding:0px;
+    margin:0px;
+    }
+    header ul li {
+    padding:1rem;
+    }
+    header ul a {
+    
+    }
+
+    
+    
+    
+
+    /*
+    Main layout
+    */
+    main {
+    flex-direction:column;
+    }
+    
+    
+    /*
+    Left sidebar
+    */
+    .sidenav {
+    padding:1rem;
+    }
+    
+    /*
+    Center content
+    */
+    .article {
+    padding:1rem;
+    }
+    
+    /*
+    Right sidebar
+    */
+    .aside {
+    padding:1rem;
+    }
+    
+    
+
+    
+    
+    /*
+    Footer
+    */
+    footer {
+    
+    }
+    footer ul {
+    
+    }
+    footer ul li {
+    
+    }
+    footer ul li a {
+    
+    }
+    footer copyright {
+    
     }
 }
