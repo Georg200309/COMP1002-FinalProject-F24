@@ -1,0 +1,105 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 30px;
+  }
+
+  .slider-wrapper {
+    display: flex;
+    overflow-x: hidden;
+    /* Removed scroll-behavior: smooth */
+  }
+
+  .slide {
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 20px;
+    min-height: fit-content;
+  }
+
+  /* Reviews Section */
+.reviews-section {
+    text-align: center;
+    margin: 30px auto;
+  }
+ 
+.reviews-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }  
+
+/* Review Text */
+.review-text {
+    font-size: 1.4rem;
+    color: #555; 
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+ /* Review Author */
+.review-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; 
+  } 
+
+  .left-button, .right-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+  }
+
+  .left-button:hover, .right-button:hover {
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+  .left-button {
+    left: 5px;
+  }
+
+  .right-button {
+    right: 5px;
+  }
+
+  /* Optional: Hide buttons when at the start or end */
+  .disabled {
+    visibility: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .slider-container {
+        width: 95%; 
+        max-width: 100%; 
+        padding: 15px;
+    }
+
+    .slide {
+        height: 200px; 
+        font-size: 1.2em; 
+        padding: 15px; 
+    }
+
+    .review-text {
+        font-size: 1.2rem;
+      }
+
+    .review-author {
+        font-size: 1rem;
+      }  
+
+    .left-button, .right-button {
+        padding: 8px 12px; 
+    }
+}
