@@ -8,27 +8,83 @@
 <meta name="keywords" content="TAGS AND KEYWORDS">
 <meta name="author" content="Monkhouse, Braidan P, Svetlana Bedareva, Jamie Bascin">
 <script src="./Scripts/Main.js" defer></script>
+<script src="./Scripts/Slider.js" defer></script>
+<link rel="stylesheet" type="text/css" href="./Styles/Slider.css"/>
 <link rel="stylesheet" type="text/css" href="./Styles/Common.css"/>
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Small.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Hamburger.css"/>
 <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="./Styles/Large.css"/>
+
+<link rel="icon" href="Images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header id="HEADER">
         <!-- Global header goes here -->
     </header>
     <main>
-        <nav class="sidenav">
-            <p>Sidebar</p>
-        </nav>
-        <article class="article">
-            <h1>Home Page</h1>
-        </article>
-        <aside class="aside">
-            <p>Aside</p>
-        </aside>
+        <div class="wrapper">
+            <!-- Main banner -->
+            <section class="banner">
+              <img src="Images/banner-image.png" alt="Sony Walkman Banner">
+              <div class="banner-text">
+              <h1>Rediscover Music with Walkman</h1>
+              <p>High-quality sound and stylish design</p>
+              <a href="product.html" class="btn">Shop Now</a>
+              </div>
+            </section>
+
+            <!-- Benefits Section -->
+
+    <div class="benefits-reviews-container">
+        <section class="benefits">
+            <h2>Why Choose Walkman?</h2>
+            <ul>
+              <li>Perfect sound for music lovers</li>
+              <li>Advanced technology</li>
+              <li>Elegant and lightweight design</li>
+              <li>Long-lasting battery life</li>
+            </ul>
+          </section>
+          
+          <div class="reviews-section">
+            <h2 class="reviews-title">What Our Customers Say</h2>
+            <div class="slider-container">
+              <button class="left-button disabled">&lt;</button>
+              <div class="slider-wrapper">
+                <!-- Slide 1 -->
+                <div class="slide">
+                  <p class="review-text">
+                    "A true blast from the past! I bought a Walkman cassette player to relive the nostalgia, and it was incredible! The sound is so warm and natural, and the player itself is compact and stylish. Walkman is truly a classic!"
+                  </p>
+                  <p class="review-author">John M.</p>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                  <p class="review-text">
+                    "Perfect for retro music lovers! The Walkman is not only surprisingly convenient but also takes me back to memories of my childhood. It’s not just a gadget; it’s a piece of history that still works like a charm."
+                  </p>
+                  <p class="review-author">Emily R.</p>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                  <p class="review-text">
+                    "Timeless quality! The Walkman delivers incredible sound and unmatched reliability. Truly legendary!"
+                  </p>
+                  <p class="review-author">Michael T.</p>
+                </div>
+              </div>
+              <button class="right-button">&gt;</button>
+            </div>
+          </div>
+          
+    </div>        
+  
+
+        
     </main>
     <footer id="FOOTER">
         <!-- Global footer goes here -->
     </footer>
+
 </body>
 </html>

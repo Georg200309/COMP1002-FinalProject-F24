@@ -4,14 +4,22 @@
 @Updated - November 12, 2024
 */
 const HeaderCode = `
-<a><img src="./Images/image.png" alt="Logo"></a>
+<a href="index.html" class="logo-wrapper"><img class="logo" src="Images/logo.png" alt="Logo"><h2 class="title">Walkman Players</h2></a>
 
-<ul>
-<li><a href="./index.html">Home</a></li>
-<li><a href="./about.html">About</a></li>
-<li><a href="./product.html">Product</a></li>
-<li><a href="./contact.html">Contact</a></li>
-</ul>`;
+<div>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./product.html">Product</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+</div>
+`;
 
 const FooterCode = `<ul>
 <li><a href="./index.html">Home</a></li>
@@ -38,4 +46,10 @@ function OnLoadScript() {
     if (Footer != null) {
         Footer.innerHTML = FooterCode;
     }
+}
+
+function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('active');
+    navLinks.parentElement.classList.toggle('active');
 }
