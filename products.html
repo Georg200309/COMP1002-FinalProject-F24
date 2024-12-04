@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product | Walkman</title>
+<meta name="description" content="DESCRIPTION">
+<meta name="keywords" content="TAGS AND KEYWORDS">
+<meta name="author" content="Monkhouse, Braidan P, Svetlana Bedareva, Jamie Bascin">
+<script src="./Scripts/Main.js" defer></script>
+<script src="./Scripts/ProductInformation.js" defer></script>
+<script src="./Scripts/Products.js" defer></script>
+<link rel="stylesheet" type="text/css" href="./Styles/Common.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Small.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Hamburger.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="./Styles/Large.css"/>
+</head>
+<body>
+    <header id="HEADER">
+        <!-- Global header goes here -->
+    </header>
+    <main>
+        <nav class="sidenav">
+            <h3>Options:</h3>
+            <div class="product-options-wrapper">
+            <label for="sort">Sort:</label>
+            <select name="sort" id="SORT-ORDER">
+                <option selected value="Alphabetical">Alphabetical</option>
+                <option value="Reverse">Reverse Alphabetical</option>
+                <option value="NewestToOldest">Newest to Oldest</option>
+                <option value="OldestToNewest">Oldest to Newest</option>
+                <option value="LowToHigh">Price Lowest to Highest</option>
+                <option value="HighToLow">Price Highest to Lowest</option>
+            </select>
+        </div>
+    
+            <br>
+            <br>
+            <div class="product-options-wrapper">
+            <label for="minimumprice">Minimum Price:</label>
+            <input id="MINIMUM-PRICE" name="minimumprice" type="number" placeholder="Minimum Price">
+        </div>
+            <br>
+            <br>
+            <div class="product-options-wrapper">
+            <label for="maximumprice">Maximum Price:</label>
+            <input id="MAXIMUM-PRICE" name="maximumprice" type="number" placeholder="Maximum Price">
+        </div>
+
+
+        </nav>
+        <article class="article">
+            <h1>Products</h1>
+            <p class="para">Browse our extensive collection of walkmans:</p>
+            <p id="NUM-PRODUCTS"></p>
+    
+            <div id="PRODUCTS-WRAPPER">
+                <!-- Contains list of walkmans -->
+            </div>
+            
+        </article>
+        <aside class="aside">
+
+        </aside>
+    </main>
+    <footer id="FOOTER">
+        <!-- Global footer goes here -->
+    </footer>
+</body>
+</html>

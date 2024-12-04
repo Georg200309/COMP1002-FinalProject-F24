@@ -10,6 +10,7 @@
 <script src="./Scripts/Main.js" defer></script>
 <link rel="stylesheet" type="text/css" href="./Styles/Common.css"/>
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Small.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Hamburger.css"/>
 <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="./Styles/Large.css"/>
 </head>
 <body>
@@ -18,13 +19,26 @@
     </header>
     <main>
         <nav class="sidenav">
-            <p>Sidebar</p>
+
         </nav>
         <article class="article">
-            <h1>Contact Page</h1>
+            <h1>Contact</h1>
+            <p class="para">We'll try our best to get back to you.</p>
+    
+    
+            <p class="para">You can call us at <a href="tel:+15555555555">+1-(555)-(555)-(5555)</a> if you wish to place an order by phone or for any other inquiries.</p>
+    
+            <p class="para">Alternatively, you can email us at <a href="mailto:support@walkmanplayers.com">support@walkmanplayers.com</a>.</p>
+    
+            <fieldset>
+                <legend>Signup For Our Newsletter</legend>
+                <label class="contact-email" for="EmailAddress">Email Address</label><br>
+                <input id="EmailAddress" class="contact-email-input" type="email" name="EmailAddress" placeholder="Email Address"><br>
+            </fieldset>
+    
         </article>
         <aside class="aside">
-            <p>Aside</p>
+
         </aside>
     </main>
     <footer id="FOOTER">

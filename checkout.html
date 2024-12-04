@@ -8,8 +8,11 @@
 <meta name="keywords" content="TAGS AND KEYWORDS">
 <meta name="author" content="Monkhouse, Braidan P, Svetlana Bedareva, Jamie Bascin">
 <script src="./Scripts/Main.js" defer></script>
+<script src="./Scripts/ProductInformation.js" defer></script>
+<script src="./Scripts/Checkout.js" defer></script>
 <link rel="stylesheet" type="text/css" href="./Styles/Common.css"/>
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Small.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 992px)" href="./Styles/Hamburger.css"/>
 <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="./Styles/Large.css"/>
 </head>
 <body>
@@ -18,13 +21,27 @@
     </header>
     <main>
         <nav class="sidenav">
-            <p>Sidebar</p>
+
+
+
         </nav>
         <article class="article">
-            <h1>Product Page</h1>
+            <h1>Checkout</h1>
+            <p class="para">View the items you added to your cart.</p>
+
+            <p id="NUM-PRODUCTS"></p>
+    
+            <div id="CHECKOUT-WRAPPER">
+                <!-- Checkout information goes here. -->
+            </div>
+
+            
         </article>
         <aside class="aside">
-            <p>Aside</p>
+
+
+
+
         </aside>
     </main>
     <footer id="FOOTER">
