@@ -61,6 +61,7 @@ width: 100%;
 color:#ff9900fc;
 }
 
+
 .title {
     color: var(--PRIM-COL);
 }
@@ -405,6 +406,7 @@ margin:0.75rem;
         top: 0;
         z-index: 10000;
     }
+
   }
 
 
@@ -699,3 +701,4 @@ width:100%;
 border-radius:8px;
 }
 /* End of contact page */
+
