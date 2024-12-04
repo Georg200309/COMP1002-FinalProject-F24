@@ -1,0 +1,103 @@
+/*
+@Title - Final Assignment
+@Authors - Monkhouse, Braidan P, Svetlana Bedareva, Jamie Bascin
+@Updated - November 12, 2024
+*/
+const ProductInformation = [
+{
+'Id':11,
+'Title':'Compact Walkman (1995)',
+'Description':'Compact and crisp sounding.',
+'ImageUrl':'./Images/Products/1.png',
+'Price':49.99,
+'Age':1995,
+},
+{
+'Id':22,
+'Title':'New Walkman (1985)',
+'Description':'This version has held up well over the years.',
+'ImageUrl':'./Images/Products/2.png',
+'Price':159.99,
+'Age':1985,
+},
+{
+'Id':33,
+'Title':'Walkman (1982)',
+'Description':'Crystal clear sound on the go.',
+'ImageUrl':'./Images/Products/3.png',
+'Price':59.99,
+'Age':1982,
+},
+{
+'Id':44,
+'Title':'Walkman Pro (1983)',
+'Description':'The walkman you know but even better.',
+'ImageUrl':'./Images/Products/4.png',
+'Price':119.99,
+'Age':1983,
+},
+{
+'Id':55,
+'Title':'Walkman Pro Max (1984)',
+'Description':'Great sound made even better',
+'ImageUrl':'./Images/Products/5.png',
+'Price':159.99,
+'Age':1984,
+},
+{
+'Id':66,
+'Title':'Walkman Mini (1986)',
+'Description':'Great sound in a smaller package.',
+'ImageUrl':'./Images/Products/6.png',
+'Price':179.99,
+'Age':1986,
+},
+{
+'Id':77,
+'Title':'Walkman Portable (1989)',
+'Description':'Awesome sound portable as before.',
+'ImageUrl':'./Images/Products/7.png',
+'Price':69.99,
+'Age':1989,
+},
+{
+'Id':88,
+'Title':'The new Walkman (1993)',
+'Description':'Just like before but newer.',
+'ImageUrl':'./Images/Products/8.png',
+'Price':89.99,
+'Age':1983,
+},
+{
+'Id':99,
+'Title':'Walkman Air (1994)',
+'Description':'Crystal clear sound.',
+'ImageUrl':'./Images/Products/9.png',
+'Price':99.99,
+'Age':1994,
+},
+{
+'Id':1010,
+'Title':'Walkman Air Pro Max (1995)',
+'Description':'Compact with great clear sound.',
+'ImageUrl':'./Images/Products/10.png',
+'Price':149.99,
+'Age':1995,
+},
+{
+'Id':1111,
+'Title':'Walkman Pro Max 4th Gen (1996)',
+'Description':'Same clear sound as before but even better.',
+'ImageUrl':'./Images/Products/11.png',
+'Price':299.99,
+'Age':1996,
+},
+{
+'Id':1212,
+'Title':'Walkman Pro Max 5th Gen (1997)',
+'Description':'Clear sound and better than last years model.',
+'ImageUrl':'./Images/Products/12.png',
+'Price':399.99,
+'Age':1997,
+},
+];
