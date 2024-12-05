@@ -699,7 +699,7 @@ footer copyright {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 40px;
+  padding: 10px;
   background-color: #5c5754;
   max-width: 800px;
   margin: 0 auto;
