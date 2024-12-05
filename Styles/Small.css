@@ -4,93 +4,180 @@
 @Updated - November 12, 2024
 */
 @media screen and (max-width: 992px) {
-    /*
+  /*
     Body
     */
-    * {
-    
-    }
-    body {
-    margin:0;
-    }
+  * {
+  }
+  body {
+    margin: 0;
+  }
 
-
-
-    /*
+  /*
     Header
     */
-    header {
-    height:5rem;
-    padding:0px;
-    }
-    header img {
-    height:3rem;
-    width:auto;
-    }
-    header ul {
-    padding:0px;
-    margin:0px;
-    }
-    header ul li {
-    padding:1rem;
-    }
-    header ul a {
-    
-    }
+  header {
+    height: 5rem;
+    padding: 0px;
+  }
+  header img {
+    height: 3rem;
+    width: auto;
+  }
+  header ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  header ul li {
+    padding: 1rem;
+  }
+  header ul a {
+  }
 
-    
-    
-    
-
-    /*
+  /*
     Main layout
     */
-    main {
-    flex-direction:column;
-    }
-    
-    
-    /*
+  main {
+    flex-direction: column;
+  }
+
+  /*
     Left sidebar
     */
-    .sidenav {
-    padding:1rem;
-    }
-    
-    /*
+  .sidenav {
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    max-width: none;
+    flex-direction: column;
+  }
+  .product-options-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+  }
+
+  .product-options-wrapper label {
+    flex: 0 0 auto;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .product-options-wrapper select,
+  .product-options-wrapper input {
+    width: 100%;
+  }
+
+  /*
     Center content
     */
-    .article {
-    padding:1rem;
-    }
-    
-    /*
+  .article {
+    padding: 1rem;
+  }
+
+  /*
     Right sidebar
     */
-    .aside {
-    padding:1rem;
-    }
-    
-    
+  .aside {
+    padding: 1rem;
+  }
 
-    
-    
-    /*
+  /*
     Footer
     */
-    footer {
-    
-    }
-    footer ul {
-    
-    }
-    footer ul li {
-    
-    }
-    footer ul li a {
-    
-    }
-    footer copyright {
-    
-    }
+  footer {
+  }
+  footer ul {
+  }
+  footer ul li {
+  }
+  footer ul li a {
+  }
+  footer copyright {
+  }
+
+  /* Banner styles */
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .banner-text .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  /* Benefits styles */
+
+  .benefits {
+    width: 95%;
+    padding: 30px;
+  }
+
+  .benefits h2 {
+    font-size: 2rem;
+  }
+
+  .benefits ul li {
+    font-size: 1.2rem;
+  }
+
+  .benefits-reviews-container {
+    padding: 10px;
+  }
+
+  .benefits,
+  .reviews-section {
+    width: 100%;
+  }
+
+  /* Contact page */
+
+  .contact-page {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    flex: 1 1 100%;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+  }
+
+  .submit-button {
+    align-self: flex-end;
+  }
+
+  /* About us page */
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text,
+  .about-image {
+    flex: 1 1 100%;
+  }
+}
+
+.checkout-card {
+  flex-direction: column;
 }
